@@ -15,7 +15,9 @@ Create application
 ................................................
 
 # To Do
+- Inherit HTML Nav bar to Login page
 - Bootstrap 4.0 to load assets
 - Configure Database
 - Use a data model
 - Serve files outside of code base path
+- Run behind Nginx

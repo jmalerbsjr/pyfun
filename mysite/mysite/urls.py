@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('polls/', include('polls.urls')),
-    path('admin/', admin.site.urls),
-    path('login/', include('login.urls')),
+    # path('', include('homepage.urls')),
+    path('', include('app.urls')),
+    path('/login', include('app.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
