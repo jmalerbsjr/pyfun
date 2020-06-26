@@ -6,9 +6,16 @@ Setting up
 Running a local server
 > python manage.py runserver 8000
 
+Migrate
+> python manage.py makemigrations polls
+
+Create application
+> python manage.py startapp polls
+
 ................................................
 
 # To Do
 - Bootstrap 4.0 to load assets
 - Configure Database
 - Use a data model
+- Serve files outside of code base path
