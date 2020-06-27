@@ -15,7 +15,8 @@ Create application
 ................................................
 
 # To Do
-- Move files out of templat folders
+- Return sample data
+- Design simple HTML form to display results
 - Configure Database
 - Use a data model
 - Serve files outside of code base path
