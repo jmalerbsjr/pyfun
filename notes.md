@@ -15,8 +15,7 @@ Create application
 ................................................
 
 # To Do
-- Inherit HTML Nav bar to Login page
-- Bootstrap 4.0 to load assets
+- Move files out of templat folders
 - Configure Database
 - Use a data model
 - Serve files outside of code base path
